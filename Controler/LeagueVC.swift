@@ -17,5 +17,9 @@ class LeagueVC: UIViewController {
     }
 
 
-
+    @IBAction func tippNext(_ sender: Any) {
+        
+        performSegue(withIdentifier: "TippNext", sender: self)
+    }
+    
 }
