@@ -40,6 +40,8 @@
 		E2D09DD820AC75CD00546B6E = {
 			isa = PBXGroup;
 			children = (
+				E2D09E3C20AE1BE700546B6E /* Controler */,
+				E2D09E3B20AE1BD300546B6E /* Model */,
 				E2D09E3820ADCD2700546B6E /* View */,
 				E2D09DE320AC75CD00546B6E /* copyCat */,
 				E2D09DE220AC75CD00546B6E /* Products */,
@@ -58,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				E2D09DE420AC75CD00546B6E /* AppDelegate.swift */,
-				E2D09DE620AC75CD00546B6E /* ViewController.swift */,
 				E2D09DE820AC75CD00546B6E /* Main.storyboard */,
 				E2D09DEB20AC75D100546B6E /* Assets.xcassets */,
 				E2D09DED20AC75D100546B6E /* LaunchScreen.storyboard */,
@@ -73,6 +74,21 @@
 				E2D09E3920ADCD4B00546B6E /* border.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E2D09E3B20AE1BD300546B6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2D09E3C20AE1BE700546B6E /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				E2D09DE620AC75CD00546B6E /* ViewController.swift */,
+			);
+			path = Controler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
