@@ -13,6 +13,8 @@ class LeagueVC: UIViewController {
     @IBOutlet weak var statusBtn: border!
     var playerNameLeagueVC : Player!
     
+    @IBOutlet weak var showNameAtRealTime: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +44,12 @@ class LeagueVC: UIViewController {
     func desiredLeaguePlayerName(playerNamePara : String){
        playerNameLeagueVC.desiredLeagueType = playerNamePara
         statusBtn.isEnabled = true
+        showNameAtRealTime.text = playerNamePara
     }
+    
+    
+    
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //
