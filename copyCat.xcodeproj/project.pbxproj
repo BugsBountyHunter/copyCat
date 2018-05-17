@@ -12,6 +12,7 @@
 		E2D09DEA20AC75CD00546B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D09DE820AC75CD00546B6E /* Main.storyboard */; };
 		E2D09DEC20AC75D100546B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D09DEB20AC75D100546B6E /* Assets.xcassets */; };
 		E2D09DEF20AC75D100546B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D09DED20AC75D100546B6E /* LaunchScreen.storyboard */; };
+		E2D09E3A20ADCD4B00546B6E /* border.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D09E3920ADCD4B00546B6E /* border.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E2D09DEB20AC75D100546B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D09DEE20AC75D100546B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2D09DF020AC75D100546B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D09E3920ADCD4B00546B6E /* border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = border.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		E2D09DD820AC75CD00546B6E = {
 			isa = PBXGroup;
 			children = (
+				E2D09E3820ADCD2700546B6E /* View */,
 				E2D09DE320AC75CD00546B6E /* copyCat */,
 				E2D09DE220AC75CD00546B6E /* Products */,
 			);
@@ -62,6 +65,14 @@
 				E2D09DF020AC75D100546B6E /* Info.plist */,
 			);
 			path = copyCat;
+			sourceTree = "<group>";
+		};
+		E2D09E3820ADCD2700546B6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2D09E3920ADCD4B00546B6E /* border.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				E2D09DE720AC75CD00546B6E /* ViewController.swift in Sources */,
 				E2D09DE520AC75CD00546B6E /* AppDelegate.swift in Sources */,
+				E2D09E3A20ADCD4B00546B6E /* border.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 358N9E4597;
 				INFOPLIST_FILE = copyCat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 358N9E4597;
 				INFOPLIST_FILE = copyCat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
