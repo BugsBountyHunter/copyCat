@@ -9,11 +9,16 @@
 import UIKit
 
 class SkillVC: UIViewController {
+    
+    
+    var playerSkillVC : Player!
 
+    @IBOutlet weak var PlayerTaype: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+        print(playerSkillVC.desiredLeagueType!)
+      PlayerTaype.text = playerSkillVC.desiredLeagueType!
+                
         
 
     }
